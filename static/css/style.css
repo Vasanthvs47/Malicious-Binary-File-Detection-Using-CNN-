@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: radial-gradient( circle farthest-corner at -5.6% -6.8%,  rgba(103,49,145,1) 37.3%, rgba(50,0,129,1) 73.5% );
+}
+.conatiner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.com{
+    width: 50vw;
+    /* border: 1px solid black; */
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;     */
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    color: white;
+}
+form *{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+form .lb1{
+    font-size: 24px;
+    margin: 10px 0;
+    margin-left: 50px;
+    margin-top: 65px;
+}
+form input[type="file"]{
+    border: 1px solid black;
+    width: 300px;
+}
+form input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+.label {
+	display: block;
+	width: 60vw;
+	max-width: 300px;
+	background-color: slateblue;
+	border-radius: 2px;
+	font-size: 1em;
+	line-height: 2.5em;
+	text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+}
+
+.label:hover {
+	background-color: cornflowerblue;
+}
+
+.label:active {
+	background-color: mediumaquamarine;
+}
+
+input[type="file"] {
+	border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px; 
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.right{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right h3{
+    font-size: 28px;
+    margin: 10px 0;
+}
+.right ul{
+    font-size: 22px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.right .img{
+    width: 255px;
+    height: 255px;
+}
